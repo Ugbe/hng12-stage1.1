@@ -45,4 +45,6 @@ where x is a placeholder for the number you wish to play with.
     http://localhost:8000/api/classify-number?number=371
 ## Note:
 If you want to hire competent python backend engineers, [this](https://hng.tech/hire/python-developers) is the place to go!
+### Side-note:
+The primality checking function I used was pretty cool, hehe. Never knew it could be done that way until today, courtesy of [GeeksfoGeeks](https://www.geeksforgeeks.org/check-for-prime-number/).
 
