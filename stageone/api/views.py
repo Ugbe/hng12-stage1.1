@@ -23,9 +23,9 @@ def classify_number(request):
         })
 
 
-    except ValueError:
+    except:
         return JsonResponse({
-            "number": {n},
+            "number": number,
             "error": True,
         }, status=400)
     
@@ -81,8 +81,9 @@ def get_properties(n):
     properties = []
     num = list(map(int, str(n)))
     for i in range(len(num)):
-        sum += (i ** len(num))
+        sum += (num[i] ** len(num))
     if sum == n:
+        print("armstrong")
         properties.append("armstrong")
 
     if n % 2 == 0:
