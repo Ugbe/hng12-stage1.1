@@ -1,5 +1,5 @@
 # About
-In a desperate attempt to correct the history of this timeline 😂, which has nothing to with the hng12-stage1 repo, but everything to do with the latter's misnomer, I have named this repo so. This is the 2nd task or the actual stage 1 (the 1th) task, a simple Number Classification API.
+In a desperate attempt to correct the history of this timeline 😂, this repo, which has nothing to with the hng12-stage1 repo itself, but everything to do with the latter's misnomer, have I named so. This is the 2nd task or the actual stage 1 (the 1th) task, a simple Number Classification API.
 It is a public API that takes a number from the GET request and returns some information about it, e.g.
 <ol>
   <li>its primality</li>
