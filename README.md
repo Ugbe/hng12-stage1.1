@@ -4,7 +4,7 @@ It is a public API that takes a number from the GET request and returns some inf
 <ol>
   <li>its primality</li>
   <li>its polarity</li>
-  <li>a fun fact about the number (gotten from [numbersapi](numbersapi.com])</li>
+  <li>a fun fact about the number (gotten from (numbersapi)[numbersapi.com])</li>
 </ol>
 in JSON format
 
